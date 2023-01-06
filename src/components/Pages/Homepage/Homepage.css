@@ -6,9 +6,10 @@
 .accomodations-header{
     color: black;
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 550;
     text-align: center;
     padding-top: 55px;
+    padding-bottom: 55px;
 }
 
 .cities-container{
@@ -16,4 +17,16 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.compare-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.compare-items-container{
+    display: flex;
+    flex-direction: column;
 }

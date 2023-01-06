@@ -2,7 +2,7 @@ import React from 'react'
 import './CityCard.css'
 import {Link} from 'react-router-dom'
 
-function CityCard({imageUrl, imgHeight, city, cardStyle, imgRadius}) {
+function CityCard({imageUrl, imgHeight, city, imgRadius}) {
 
     const imageStyle={
         backgroundImage: `url("${imageUrl}")`,
@@ -16,13 +16,14 @@ function CityCard({imageUrl, imgHeight, city, cardStyle, imgRadius}) {
     }
 
   return (
-    <Link to={`/cityDetails/${city.id}`} className={cardStyle}>
-        <div style={imageStyle}>
-            <div className="city-card-container">
-                <p className="city-name">{city.name}</p>
+        <Link to={`/citydetails/${city.id}`}>
+            <div style={imageStyle}>
+                <div className="city-card-container">
+                    <p className="city-name">{city.name}</p>
+                </div>
             </div>
-        </div>
-    </Link>
+        
+        </Link>
   )
 }
 

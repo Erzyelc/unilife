@@ -1,0 +1,36 @@
+.footer-container{
+    height: 67px;
+    background-color: #000;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    /*position: fixed;
+    width: 100%;
+    bottom: 0;*/
+}
+
+.footer-policies{
+    padding: 20px;
+}
+
+.footer-policies a{
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 60%;
+    padding-left: 30px;
+}
+
+.copyright-section{
+    display: flex;
+    opacity: 60%;
+    padding-right: 30px;
+}
+
+.copyright-section p{
+    padding-right: 20px;
+}
+
+.copyright-logo{
+    padding-right: 7px;
+}

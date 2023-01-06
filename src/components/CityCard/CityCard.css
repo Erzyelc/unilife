@@ -1,0 +1,9 @@
+.city-name{
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -19,14 +19,142 @@
     align-items: center;
 }
 
+.cities-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 25px;
+}
+
+.cities-btn{
+    border: none;
+    width: 200px;
+    height: 48px;
+    background: #3A5295;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 .compare-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    background: #F6FAFD;
+    border-radius: 24px;
+    height: 488px;
+    margin-right: 28px;
+    margin-left: 28px;
+}
+
+.compare-container h2{
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 60px;
 }
 
 .compare-items-container{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.compare-item{
+    margin-right: 20px;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.compare-item img{
+    width: 80px;
+}
+
+.compare-item h3{
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.compare-item p{
+    color: #383838;
+    font-size: 20px;
+    font-weight: 400;
+    width: 70%;
+}
+
+.search-container{
+    display: flex;
+    margin-top: 120px;
+}
+
+.selection-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 60px;
+}
+
+.selection-item{
+    display: flex;
+}
+
+.selection-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.selection-container button{
+    border: none;
+    width: 240px;
+    height: 48px;
+    background: #3A5295;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.selection-content h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.selection-content p{
+    color: #383838;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 32px;
+}
+
+.selection-item img{
+    width: 65px;
+    height: 60px;
+}
+
+.person{
+    width: 50%;
+}
+
+.contact-container{
+    background-color: green;
+}
+
+.connect-container{
+    background-color: red;
+}
+
+.socialize-container{
+    background-color: blue;
 }

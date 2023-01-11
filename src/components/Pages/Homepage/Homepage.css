@@ -79,7 +79,7 @@
     color: black;
     font-size: 28px;
     font-weight: 600;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -88,6 +88,7 @@
     font-size: 20px;
     font-weight: 400;
     width: 70%;
+    text-align: center;
 }
 
 .search-container{
@@ -148,13 +149,76 @@
 }
 
 .contact-container{
-    background-color: green;
+    display: flex;
+    background-color: #00A2E1;
+    height: 374px;
 }
 
 .connect-container{
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 60px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.connect-container h2,
+.socialize-container h2{
+    color: white;
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+.connect-container p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+}
+
+.connect-input{
+    border: 1px solid #ced3db;
+    border-radius: 12px;
+    width: 440px;
+    height: 48px;
+    color: #ced3db;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 10px;
 }
 
 .socialize-container{
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.socialize-container img{
+    width: 30px;
+    height: 30px;
+}
+
+.social-item{
+    display: flex;
+    align-items: center;
+}
+
+.social-item h4{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.social-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-item a:hover{
+    color: #003049;
 }

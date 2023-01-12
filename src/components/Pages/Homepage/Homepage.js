@@ -11,8 +11,11 @@ import handhome from '../../../assets/handhome.png'
 import facebook from '../../../assets/facebook.png'
 import twitter from '../../../assets/twitter.png'
 import instagram from '../../../assets/instagram.png'
+import {Link, useNavigate} from 'react-router-dom'
 
 function Homepage() {
+
+    let navigate = useNavigate();
 
     const [cities, setCities] = React.useState([])
 
@@ -45,7 +48,7 @@ function Homepage() {
         }
         </div>
         <div className="cities-btn-container">
-          <button className="cities-btn">See All Cities</button>
+          <button className="cities-btn" onClick={() => navigate('/Cities')}>See All Cities</button>
         </div>
         <div class="compare-container">
           <h2>Compare all inclusive student homes.</h2>

@@ -72,3 +72,9 @@
     padding: 10px;
     cursor: pointer;
 }
+
+.form-btn:hover{
+    background-color: white;
+    color: #3A5295;
+    border: 1px solid #3A5295;
+}

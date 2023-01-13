@@ -1,4 +1,13 @@
-.cities-container{
+.all-cities-container{
     min-height: 100vh;
     margin-top: 78px;
+}
+
+
+.all-cities-btns-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 500px;
 }

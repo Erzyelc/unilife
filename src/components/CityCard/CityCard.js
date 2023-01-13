@@ -16,9 +16,9 @@ function CityCard({imageUrl, imgHeight, city, imgRadius}) {
     }
 
   return (
-        <Link to={`/citydetails/${city.id}`}>
-            <div style={imageStyle}>
-                <div className="city-card-container">
+        <Link style={{ textDecoration: 'none' }} to={`/citydetails/${city.id}`}>
+            <div style={imageStyle} >
+                <div className="city-card-container" >
                     <p className="city-name">{city.name}</p>
                 </div>
             </div>

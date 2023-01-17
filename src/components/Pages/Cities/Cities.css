@@ -1,5 +1,5 @@
 .all-cities-container{
-    min-height: 100vh;
+    min-height: 60vh;
     margin-top: 78px;
 }
 
@@ -10,4 +10,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     height: 500px;
+    align-items: center;
+    margin-top: 50px;
 }

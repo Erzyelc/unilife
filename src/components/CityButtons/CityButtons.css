@@ -1,10 +1,7 @@
-.city-btn-container{
-    background-color: red;
-}
 
 .city-btn{
     background: #FFFFFF;
-    border: 1px solid #3A5295;
+    border: 1px solid #CED3D8;
     border-radius: 24px;
     cursor: pointer;
     color: black;

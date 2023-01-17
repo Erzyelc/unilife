@@ -7,6 +7,7 @@ import Banner from './components/Banner/Banner';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import CityDetails from './components/Pages/CityDetails/CityDetails';
 import Cities from './components/Pages/Cities/Cities';
+import Contact from './components/Contact/Contact';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/citydetail/:cityId" element={<CityDetails />} />
         <Route path="/cities" element={<Cities />} />
       </Routes>
+      <Contact />
       <Footer />
     </BrowserRouter>
     </div>

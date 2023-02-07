@@ -20,6 +20,7 @@ function CityCard({imageUrl, imgHeight, city, imgRadius}) {
             <div style={imageStyle} >
                 <div className="city-card-container" >
                     <p className="city-name">{city.name}</p>
+                    <p className="city-properties-count">{city.property_count} properties</p>
                 </div>
             </div>
         

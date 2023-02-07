@@ -8,13 +8,24 @@
     align-items: center;
     text-align: center;
     height: 300px;
-    width: 400px;    
+    width: 400px;
+}
+
+.city-properties-count{
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 170px;
+    left: 135px;
+    text-decoration: none;
+    color: white;
 }
 
 .city-card-container{
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(2px);
     border-radius: 25px;
+    position: relative;
 }
 
 .city-card-container:hover{

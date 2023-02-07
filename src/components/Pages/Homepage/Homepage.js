@@ -40,9 +40,6 @@ function Homepage() {
             imgRadius= {"24px"}
           />)
         }
-        {
-          /*cities.map(item => <p>{item.name}</p>)*/
-        }
         </div>
         <div className="cities-btn-container">
           <button className="cities-btn" onClick={() => navigate('/Cities')}>See All Cities</button>

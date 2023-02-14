@@ -8,20 +8,9 @@ function CityDetails() {
   const {cityId} = useParams();
   console.log(cityId)
 
-  const [city, setCity] = React.useState('');
-  React.useEffect(
-    () => {
-      axios.get(`https://unilife-server.herokuapp.com/cities/:${cityId}`)
-      .then(res => {
-        console.log(res)
-        setCity(res)
-      })
-      .catch(err => console.log(err))
-    }
-  )
   return (
     <div className="city-details-container">
-      <h2>{city?.title}</h2>
+      <h2>City Details</h2>
     </div>
   )
 }

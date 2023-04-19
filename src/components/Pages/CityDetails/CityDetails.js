@@ -4,7 +4,7 @@ import {useParams} from 'react-router-dom'
 import axios from 'axios'
 
 
-function CityDetails() {
+function CityDetails({city}) {
   const {cityId} = useParams();
   console.log(cityId)
 
